@@ -1,5 +1,5 @@
 --> HOW TO USE <--
---> loadstring(game:HttpGetAsync("https://pastebin.com/raw/Ts8TSAZN", 0, true))() <--
+--> loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/SirZyx/UI-Lib/master/Notify.lua", 0, true))() <--
 --> notify("Text you want it to say when it is executed") <--
 --> HOW TO USE <--
 
