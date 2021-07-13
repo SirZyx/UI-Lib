@@ -723,7 +723,7 @@ do
 
 function section:addLabel(text, callback)
 		local label = utility:Create("ImageButton", {
-			Name = "Button",
+			Name = "Label",
 			Parent = self.container,
 			BackgroundTransparency = 1,
 			BorderSizePixel = 0,
