@@ -1,4 +1,5 @@
 -- venyx ui lib reuploaded by me
+-- sir zyx added label (copied button code but removed clicking it)
 -- init
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
@@ -1993,6 +1994,12 @@ function section:addLabel(text, callback)
 		button = self:getModule(button)
 		
 		button.Title.Text = title
+	end
+
+	function section:updateLabel(label, title)
+		label = self:getModule(label)
+		
+		Label.Title.Text = title
 	end
 	
 	function section:updateToggle(toggle, title, value)
