@@ -1999,7 +1999,7 @@ function section:addLabel(text, callback)
 	function section:updateLabel(label, title)
 		label = self:getModule(label)
 		
-		Label.Title.Text = title
+		label.Title.Text = title
 	end
 	
 	function section:updateToggle(toggle, title, value)
